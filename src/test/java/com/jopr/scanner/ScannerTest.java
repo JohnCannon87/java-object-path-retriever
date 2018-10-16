@@ -26,7 +26,7 @@ public class ScannerTest {
         System.out.println(result);
         assertEquals(4, result.size());
         assertTrue(result.contains(new Node("basicTestClass.basicString", String.class)));
-        assertTrue(result.contains(new Node("basicTestClass.basicInt", int.class)));
+        assertTrue(result.contains(new Node("basicTestClass.basicInt", Integer.class)));
         assertTrue(result.contains(new Node("basicTestClass.objectDouble", Double.class)));
         assertTrue(result.contains(new Node("basicTestClass.bigInteger", BigInteger.class)));
     }
@@ -39,10 +39,10 @@ public class ScannerTest {
         // THEN
         System.out.println(result);
         assertEquals(6, result.size());
-        assertTrue(result.contains(new Node("advancedTestClass.basicLong", long.class)));
-        assertTrue(result.contains(new Node("advancedTestClass.basicFloat", float.class)));
+        assertTrue(result.contains(new Node("advancedTestClass.basicLong", Long.class)));
+        assertTrue(result.contains(new Node("advancedTestClass.basicFloat", Float.class)));
         assertTrue(result.contains(new Node("advancedTestClass.basicClass.basicString", String.class)));
-        assertTrue(result.contains(new Node("advancedTestClass.basicClass.basicInt", int.class)));
+        assertTrue(result.contains(new Node("advancedTestClass.basicClass.basicInt", Integer.class)));
         assertTrue(result.contains(new Node("advancedTestClass.basicClass.objectDouble", Double.class)));
         assertTrue(result.contains(new Node("advancedTestClass.basicClass.bigInteger", BigInteger.class)));
     }
