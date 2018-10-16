@@ -1,6 +1,8 @@
 # java-object-path-retriever
 Small Library to support accessing java variables (via get methods) via dot notation.
 
+[![Build Status](https://travis-ci.org/JohnCannon87/java-object-path-retriever.svg?branch=master)](https://travis-ci.org/JohnCannon87/java-object-path-retriever)
+
 # Usage
 ## Scanning
 Scanning is the act of building up a list of available string paths for an object this is done using the Scanner class e.g.
@@ -31,8 +33,10 @@ public class Bar {
 ```
 
 We would then get a response containing a List of 2 Nodes:
+```
 Node<"foo.fooString", String.class>
 Node<"foo.bar.barInteger", Integer.class>
+```
 
 
 ## Retrieval
