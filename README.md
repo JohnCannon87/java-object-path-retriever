@@ -2,6 +2,7 @@
 Small Library to support accessing java variables (via get methods) via dot notation.
 
 [![Build Status](https://travis-ci.org/JohnCannon87/java-object-path-retriever.svg?branch=master)](https://travis-ci.org/JohnCannon87/java-object-path-retriever)
+[![codecov](https://codecov.io/gh/JohnCannon87/java-object-path-retriever/branch/develop/graph/badge.svg)](https://codecov.io/gh/JohnCannon87/java-object-path-retriever)
 
 # Usage
 ## Scanning
