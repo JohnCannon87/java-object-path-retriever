@@ -93,7 +93,7 @@ bintray {
 		licenses = ['Apache-2.0']
 		vcsUrl = 'https://github.com/JohnCannon87/java-object-path-retriever'
 		version {
-			name = '1.0.0'
+			name = '1.0.1'
 			released  = new Date()
 		}
 	}
